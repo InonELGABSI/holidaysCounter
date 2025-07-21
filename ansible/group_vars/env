@@ -14,4 +14,6 @@ aws_ubuntu_ami: ami-02003f9f0fde924ea
 Server_type: t2.micro
 server_volume_size: 10
 
+docker_user: inon11221
+
 repo:
