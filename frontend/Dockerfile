@@ -1,8 +1,8 @@
 # ---------- Build Stage ----------
-FROM node:18 AS build
+FROM node:20 AS build
 WORKDIR /app
 COPY . .
-RUN npm ci --omit=dev
+RUN npm ci
 RUN npm run build
 
 # ---------- Production Stage ----------
