@@ -2,7 +2,7 @@ name: upload holidayFinder to DockerHub
 on:
   push:
     branches:
-      - main
+      - test/inon
 
 jobs:
   build:
