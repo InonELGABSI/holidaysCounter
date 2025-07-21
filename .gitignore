@@ -7,8 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Ignore ansible group_vars folder
-ansible/group_vars/
+# Ignore sensitive ansible files but keep configuration
+ansible/group_vars/*.pem
+ansible/group_vars/**/secrets*
+ansible/group_vars/**/*secret*
 
 node_modules
 dist
