@@ -2,7 +2,7 @@ name: upload holidayCounter to DockerHub
 on:
   push:
     branches:
-      - test/inon
+      - master
 
 jobs:
   build:
